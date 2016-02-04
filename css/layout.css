@@ -1,0 +1,13 @@
+.col25{
+	width: 25%;
+	height: 100%;
+}
+.col50{
+	width: 50%;
+	height: 100%;
+}
+
+div{
+	border: solid 1px;
+}
+
