@@ -12,12 +12,21 @@
 		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" href="css/trex.css">
 	</head>
-	<body ng-controller="ctrlRexy">
-		<div class="col25"></div>
-		<div class="col50">
-			<div class="environment ground"></div>
-			<div class="environment cactus"></div>					
+	<body ng-controller="ctrlRexy" ><!-- ng-keyup="keypress($event)" -->
+		<div class="col25">
+			<!-- <div class="environment cactus-right" style="position:inherit;"></div> -->
+			<!-- <div class="environment cactus-left" style="position:inherit;"></div> -->
+			<!-- <div class="environment cactuses" style="position:inherit;"></div> -->
+			<div class="environment cloud" style="position:inherit;"></div>
 		</div>
-		<div class="col25"></div>
+		<div class="col50">
+			<div class="rexy stay"></div>
+			<!-- <div class="environment cloud"></div> -->
+			<div class="environment ground"></div>
+			<div class="environment cactus"></div>
+		</div>
+		<div class="col25">
+			<input type="number" ng-model="speed">
+		</div>
 	</body>
 </html>

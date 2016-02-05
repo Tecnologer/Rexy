@@ -19,7 +19,7 @@ app.factory('$fnc',["$interval","$document",function($interval,$document){
 	        $interval.cancel(timer);
 	    },
 	    e: function(element){
-	    	return angular.element(element);
+	    	return document.querySelectorAll(element);
 	    }
 	}
 }]);
