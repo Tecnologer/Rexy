@@ -1,14 +1,27 @@
-.col25{
-	width: 25%;
-	height: 100%;
-	float: left;
+@media(max-width: 779px) {
+	.col10{
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+	.col80{
+		width: 80%;
+		height: 100%;
+		float: left;
+	}
 }
-.col50{
-	width: 50%;
-	height: 100%;
-	float: left;
+@media(min-width: 780px) {
+	.col25{
+		width: 25%;
+		height: 100%;
+		float: left;
+	}
+	.col50{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
 }
-
 html,body{
 	height: 100%;
 	margin: 0px;

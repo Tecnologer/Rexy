@@ -17,9 +17,6 @@ app.factory('$fnc',["$interval","$document",function($interval,$document){
 	    },
 	    clearInterval: function(timer){
 	        $interval.cancel(timer);
-	    },
-	    e: function(element){
-	    	return document.querySelectorAll(element);
 	    }
 	}
 }]);
