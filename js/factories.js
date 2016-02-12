@@ -17,6 +17,11 @@ app.factory('$fnc',["$interval","$document",function($interval,$document){
 	    },
 	    clearInterval: function(timer){
 	        $interval.cancel(timer);
+	    },
+	    random: function(start,end){
+	    	start=start || 1;
+	    	end=end || 6;
+	    	return Math.floor(Math.random()*(end-start+1)+start);
 	    }
 	}
 }]);

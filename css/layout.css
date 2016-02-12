@@ -27,3 +27,8 @@ html,body{
 	margin: 0px;
 }
 
+.frameLateral{
+	background-color: #FFF;
+	z-index: 100;
+	position: absolute;
+}
