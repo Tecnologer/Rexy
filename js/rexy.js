@@ -70,11 +70,16 @@ app.directive("ground",["$fnc",function($fnc){
 				$fnc.clearInterval(scope.ground.timer);
 				scope.rexy.stop();
 
+<<<<<<< HEAD
 				if(stopCloud){
 					scope.clouds.stop();
 					scope.environment.stop();
 				}
 
+=======
+				if(stopCloud)
+					scope.clouds.stop();
+>>>>>>> gh-pages
 			};
 			/** Autor: Rey David Dominguez
 				Fecha: 02/04/2016
@@ -194,7 +199,10 @@ app.directive("cloud",["$fnc",function($fnc){
 				currentLeft: 965
 			};
 
+<<<<<<< HEAD
 			$(elem).css("top",$fnc.random(260,280)+"px");
+=======
+>>>>>>> gh-pages
 			var initialLeft=cloud.currentLeft;
 
 			cloud.move=function(i){
@@ -244,11 +252,15 @@ app.directive('environmentGeneral', ["$fnc","factory",function ($fnc,factory) {
 					if($fnc.random(0,1)==1)
 						$fnc.interval(factory.newCloud,$fnc.random(12,30)*1000);
 				},6000,0)	
+<<<<<<< HEAD
 			};
 
 			scope.environment.stop=function(){
 				$fnc.clearInterval(scope.environment.makingClouds);
 			}
+=======
+			};			
+>>>>>>> gh-pages
 		}
 	};
 }]);
