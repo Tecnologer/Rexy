@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="appRexy">
+	<head>
+		<title>Rexy</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width" />
+	    <link href="img/rexy.png" rel="shortcut icon"/>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="js/angular-touch.min.js"></script>
+		<script type="text/javascript" src="js/factories.js"></script>
+		<script type="text/javascript" src="js/rexy.js"></script>
+
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="stylesheet" href="css/trex.css">
+	</head>
+	<body ng-controller="ctrlRexy" ng-click="keypress($event)"><!-- ng-keyup="keypress($event)" -->
+		<div  ng-hide="isMobile">
+			<div class="frameLateral frameIzq">
+				<p ng-hide="isMobile">Autor: Rey David Dominguez</p>
+				<p ng-hide="isMobile"><a href="mailto:rdominguez@tecnologer.net">rdominguez@tecnologer.net</a></p>
+				<!-- <div class="environment cactus-right" style="position:inherit;"></div> -->
+				<!-- <div class="environment cactus-left" style="position:inherit;"></div> -->
+				<!-- <div class="environment cactuses" style="position:inherit;"></div> -->
+				<!-- <div class="environment cloud" style="position:inherit;"></div> -->
+			</div>
+			<div class="frameCentral" environment-general>
+				<div class="environment cloud" id="1"></div>
+				<div class="rexy stay"></div>
+				<div class="environment ground"></div>
+				<div class="environment cactus"></div>
+			</div>
+			<div class="frameLateral frameDerecho">
+				<!-- Velocidad actual: <input type="number" ng-model="speed" style="width:60px">px por segundo -->
+			</div>
+		</div>
+		<div ng-show="isMobile">No disponible para este dispositivo, considere una donacion al desarrollador si quiere jugar en mobil.</div>
+	</body>
+</html>
