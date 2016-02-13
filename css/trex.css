@@ -50,8 +50,6 @@
     height: 66px;
     width: 31px;
     position: absolute;
-    top: 298px;
-    left: 400px;
     z-index: 3;
 }
 
@@ -90,4 +88,75 @@
     position: absolute;
     top: 278px;
     z-index: 2;
+}
+
+.number0{
+	background-position: -953px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number1{
+	background-position: -973px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number2{
+	background-position: -993px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number3{
+	background-position: -1013px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number4{
+	background-position: -1033px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number5{
+	background-position: -1053px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number6{
+	background-position: -1073px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number7{
+	background-position: -1093px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number8{
+	background-position: -1113px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
+}
+.number9{
+	background-position: -1134px 0px;
+	width: 19px;
+    height: 24px;
+    position: initial;
+    float: left;
 }
